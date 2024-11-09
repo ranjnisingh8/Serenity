@@ -1,0 +1,41 @@
+.TokenPage{
+    background-color: #0f0f0f;
+    margin: 0 10vw;
+    margin-top: 8vw;
+    border-radius: 1vw;
+    padding: 1vw;
+    height: 30vw;
+    min-height: calc(500px + 4vw);
+}
+.outer{
+    display: flex;
+    width: 100%;
+    max-width: 1400px;
+
+}
+.outer .left .Chart{
+    border-radius: 1vw;
+    background-color: #000000;
+    padding: 1vw;
+    overflow: hidden;
+}
+.outer .right{
+    padding: 1vw 3vw;
+} 
+.name{
+    font-size: 2vw;
+    margin-bottom: 1vw;
+}
+.des{
+    margin-bottom: 2vw;
+    line-height: 1.3vw;
+}
+.option{
+    background-color: #545454a6;
+    padding: 0.5vw 1vw;
+    border-radius: 1vw;
+    width: 20vw;
+    display: inline-flex;
+    margin:0 1vw 1vw 0;
+    justify-content: space-between;
+}

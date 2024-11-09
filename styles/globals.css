@@ -1,0 +1,70 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Inter, Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+  height: 100%;
+}
+
+body {
+  color: #ffffff;
+  background: #191c1f;
+  --color-primary: #fada3f;
+  --color-secondary: #ff2136;
+  --color-tertiary: #0294fe;
+  --color-quaternary: #9b4dff;
+  --card-background: #252133;
+  --highlighted-background: #202326;
+  font-weight: 400;
+  /* background: radial-gradient(circle at top, #13052d , #1c0017); */
+}
+#pointerCircle {
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+  z-index: 999;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+  pointer-events: none; /* Allow mouse events to pass through */
+  position: fixed;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#background{
+  position: fixed;
+  top:0;
+  z-index: -1;
+  width: 100%;
+  background: url("../public/landing1repeat_2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  opacity: 0.8;
+  /* filter: blur(20px); */
+}
